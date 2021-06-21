@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  th,td{
+    border:2px solid grey;
+  }
+</style>
+<body>
+    <h1>Heading tag</h1>
+
+ <!--PARAGRAPH TAG    
+
+ em=italic
+ b & strong=bold
+ br=nextline
+ hr=long horizontal line
+ u=underlining any words or sentence-->
+
+ <!--** anotherway of commenting is=write comment then select that comment then press , ctrl+/ **-->
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt amet similique <em>nisha</em>aliquam in itaque assumenda rem, mollitia, ratione eius ea, saepe voluptas! Accusantium dicta velit pariatur veniam voluptas iusto dolorem consequuntur voluptatum atque, eligendi ea sed voluptatem sunt amet delectus provident itaque laborum qui. Esse corrupti explicabo a atque omnis ipsum recusandae iste rerum esse dignissimos enim autem! Perferendis facilis laborum repudiandae beatae <b>gyfyugjh</b>sapiente laudantium, <br>atque, repellendus id cupiditate quas non eius dolores alias architecto <strong>gyugy</strong>voluptatem iste perspiciatis qui consectetur fugit excepturi ea doloremque nobis! Voluptatibus pariatur magni, accusantium laudantium eveniet vero, vel molestias fugit tempora doloribus temporibus tenetur odit accusamus. Rem, animi soluta? Quia asperiores, sint accusamus impedit rem a eveniet <hr>officia omnis nesciunt voluptatem aliquid maiores <u>sakshi</u>tempora, doloremque aspernatur quae deleniti natus enim, quas sunt quo neque odio? Ratione nisi officia illo rem ducimus accusantium provident debitis commodi aliquam, mollitia dolorum rerum nemo, autem minus veniam ex sint perferendis velit, cupiditate incidunt fugit maxime veritatis voluptatum. Dolore a odio laborum quaerat ab, fuga porro voluptas sed id earum architecto sint exercitationem at nihil molestias. Optio, odit! A sequi eius aliquid commodi enim. Exercitationem ad ipsam consectetur molestiae commodi a, voluptate illum, fuga nisi, possimus vero voluptatum id maxime sit!</p> 
+ <!-- IMAGE TAG ...in src=copy img address-->
+   <img src="https://wallpapercave.com/wp/U6pkgpd.jpg"alt="error">
+
+ <!--  p*4 -->
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, libero.</p>
+   <p>Lorem ipsum dolor sit amet.</p>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus saepe eligendi sint dicta at. Optio sit dolor autem eum at?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consequuntur?</p>
+     <!--  ANKER TAG -->
+     <!--In href we give links of which page we want to add.Suppose we have one more file "Demo2.html" & we want to link this file in our current file & demo2.html also have some content-->
+             <a href="Demo2.html">Go to Demo2</a><br>
+
+     <!--if we want separate tabs for each so we use TARGET attribute-->
+             <a href="http://google.com"target="_blank">Go to google</a>
+
+      <!-- LISTS <li> are of 2 types-ordered <ol> & unordered <ul>....in ordered we know the counting of lists and in unordered we dont know the couting of lists-->
+             <h1>This is my list</h1>
+             <li>Python</li>
+     <!-- if we have more list then we press (shift+alt+downarrow) -->
+         
+     <!-- ORDERED LIST -->
+        <ol>
+             <li>Python</li>         
+             <li>java</li>
+             <li>cpp</li>
+             <li>js</li>
+         </ol>
+         
+     <!-- UNORDERED LIST -->
+        <ul>
+            <li>python</li>
+            <li>java</li>
+            <li>cpp</li>
+            <li>js</li>
+        </ul>
+
+     <h1>TABLE</h1>
+       <table>  <!--two main tags in table -thead,tbody-->
+           <thead>   <!--for heading content we use th in thead-->
+               <tr>   <!--if we want our heading comes in row so we add tr tag before th tag-->
+                   <th>sno.</th>    <!--for heading-->
+                   <th>name</th>
+                   <th>college</th>
+                   <th>email</th>
+               </tr>
+           </thead>
+
+           <tbody>
+              <tr>
+               <td>1</td>
+               <td>nisha</td>
+               <td>rungta</td>
+               <td>nisharao0508@gmail.com</td>
+              </tr>
+
+              <tr>
+               <td>2</td>
+               <td>jaynt</td>
+               <td>biit</td>
+               <td>jayantrao0608@gmail.com</td>
+               </tr>
+
+               <tr>
+                <td>3</td>
+                <td>sakshi</td>
+                <td>shankara</td>
+                <td>sakshirao0604@gmail.com</td>
+               </tr>
+           </tbody>
+       </table>
+
+ <!--FORM MAKING-->
+
+ <form action="Backend django"></form>   <!--this is for backend-->
+ <form>   <!-- this is for frontend & here in forms,we take user input-->
+  <br>
+    Name:<input type="text"> <!-- input is used for user input & wegive text becz name is text-->
+    <!--if we want to add 'enter ur name'inside boxes,so we add attributr=placeholder-->
+    Name:<input type="text"name="my name" placeholder="Enter Your Name:"><br>
+    College:<input type="text"name="mycollege" placeholder="Enter Your college Name:"><br>
+    email:<input type="email"name="myemail" placeholder="Enter Your email:"><br>
+    phone:<input type="number"name="mynumber" placeholder="Enter Your mobileno.:"><br>
+    password:<input type="password"name="mypassword" placeholder="Enter Your password:"><br>
+
+    <!-- if we want to give gender then we have to add radio button -->
+    Gender:male<input type="radio" name="mygender">
+           female<input type="radio" name="mygender">
+           others<input type="radio" name="mygender">
+
+    <!--if we want to add checkbox,through checkbox we select multiple options-->
+    <div>are u interested?:cpp<input type="checkbox"name="interest"></div>   
+    <!--in some forms 1,2 checkboxes already ticked..for that we use="checked"-->
+    <div>are u interested?:java<input type="checkbox"name="interest"checked></div>    
+    <div>are u interested?:python<input type="checkbox"name="interest"></div>    
+    <div>are u interested?:web<input type="checkbox"name="interest"></div>
+    <div>are u interested?:js<input type="checkbox"name="interest"></div>
+
+
+ </form>
+
+</body>
+</html>
